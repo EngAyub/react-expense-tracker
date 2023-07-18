@@ -1,9 +1,9 @@
-function Balance() {
+function Balance(props) {
   return (
     <div className="balance space">
       <div>Total Expense:</div>
       <div>
-        <b>💲200</b>
+        <b>💲{props.total}</b>
       </div>
     </div>
   );
